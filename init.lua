@@ -1,5 +1,6 @@
 require('settings')
 vim.cmd('colorscheme habamax')
+vim.cmd('highlight DiagnosticError cterm=reverse ctermfg=167 ctermbg=234 gui=reverse guifg=#d75f5f guibg=#1c1c1c')
 
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
 
