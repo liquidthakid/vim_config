@@ -71,6 +71,12 @@ require('mason-lspconfig').setup({
       require('lspconfig')[server_name].setup({})
     end,
   },
+  ensure_installed = {
+    "ts_ls",
+    "pylsp",
+    "angularls",
+    "cssls"
+  }
 })
 
 local cmp = require('cmp')
