@@ -1,4 +1,3 @@
-require('settings')
 vim.cmd('colorscheme habamax')
 vim.cmd('highlight DiagnosticError cterm=reverse ctermfg=167 ctermbg=234 gui=reverse guifg=#d75f5f guibg=#1c1c1c')
 
@@ -116,3 +115,4 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.opt_local.expandtab = true
 	end,
 })
+require('settings')
